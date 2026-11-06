@@ -3,6 +3,7 @@ kind: MaaSSubscription
 metadata:
   annotations:
     ai-grid/version: "1"
+    maas.opendatahub.io/retain-api-keys-on-delete: "true"
     openshift.io/description: Chat model for Org UI testing (e2e-ccp-cpu, SmolLM2-135M-Instruct)
     openshift.io/display-name: grid-tenant-1-chat
   name: grid-tenant-1-chat
